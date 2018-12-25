@@ -21,4 +21,13 @@ func main() {
 main.foo
 int
 42
+
+Named types vs anonymous types
+
+Anonymous types are indeterminate. They have not been declared as a type yet. 
+The compiler has flexibility with anonymous types. 
+You can assign an anonymous type to a variable declared as a certain type. 
+If the assignment can occur, the compiler will figure it out; the compiler will do an implicit conversion. 
+You cannot assign a named type to a different named type.
+
 */
